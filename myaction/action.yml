@@ -12,7 +12,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - run: echo Hello there ${{ inputs.who-to-greet }}.
+    - run: echo Hello there ${{ inputs.who-to-greet }}. This is in .github
       shell: bash
     - id: random-number-generator
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
