@@ -1,4 +1,4 @@
-name: MainWorkflow
+name: MainWorkflow in custom repo
 
 on:
   push:
